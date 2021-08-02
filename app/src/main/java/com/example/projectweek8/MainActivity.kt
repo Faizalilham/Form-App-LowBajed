@@ -52,8 +52,8 @@ class MainActivity : AppCompatActivity() {
         binding.TVresult.setOnLongClickListener {
             val alert = AlertDialog.Builder(this).apply {
                 setIcon(R.drawable.ic_warning)
-                setTitle("Peringatan ! ")
-                setMessage("Apakah anda yakin ingin menghapus form ini ? ")
+                setTitle("Warning !")
+                setMessage("Are you sure you want to delete this form ? ")
                 setPositiveButton("Yes") { dialogInterface: DialogInterface, i: Int ->
                     binding.TVresult.text = """
                      Name : 
