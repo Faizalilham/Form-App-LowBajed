@@ -109,7 +109,7 @@
                     android:id="@+id/ETdate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:enabled="false"
+                    android:enabled="true"
                     android:hint="Date"/>
 
             </com.google.android.material.textfield.TextInputLayout>
