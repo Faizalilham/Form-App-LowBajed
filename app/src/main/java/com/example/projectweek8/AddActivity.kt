@@ -63,7 +63,7 @@ class AddActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.N)
     private fun datepicker(){
 
-        val formatedate = SimpleDateFormat("dd MMMM yyyy", Locale.US)
+        val formatedate = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
         val now = Calendar.getInstance()
         val year = now.get(Calendar.YEAR)
         val month = now.get(Calendar.MONTH)

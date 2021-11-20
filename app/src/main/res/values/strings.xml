@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjectWeek8</string>
+    <string name="copy">Copy</string>
+    <string name="Delete">Delete</string>
 </resources>
